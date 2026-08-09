@@ -1,1 +1,44 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap";
+
 @import "tailwindcss";
+
+/* Theme colors and typography */
+@theme {
+    --color-primary: #8A38F5;
+    --color-secondary: #8A38F5;
+    --surface-hover: #C5C5C5;
+    --font-sans: "Inter", sans-serif;
+}
+
+/* Dark theme - default */
+:root {
+    --bg: #0a0a0a;
+    --text: #FFFFFF;
+    --text-muted: #EFEFEF;
+
+    --text-surface: #ADADAD;
+    --surface-bg: #444444;
+
+}
+
+/* Light theme */
+.light {
+    --bg: #FFFFFF;
+    --text: #1D1D1D;
+    --text-muted: #808080;
+    
+    --text-surface: #444444;
+    --surface-bg: #F7F7F7;
+}
+
+/* Global styles */
+@layer base {
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100dvh;
+        font-family: var(--font-sans);
+        color: var(--text);
+        background-color: var(--bg);
+    }
+}
