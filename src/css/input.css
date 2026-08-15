@@ -42,3 +42,15 @@
         background-color: var(--bg);
     }
 }
+
+@layer utilities {
+    /* Ocultar barra en Chrome, Safari y navegadores WebKit */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    /* Ocultar barra en Firefox, Edge e IE */
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
