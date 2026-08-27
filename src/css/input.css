@@ -14,20 +14,17 @@
 :root {
     --bg: #0a0a0a;
     --text: #FFFFFF;
-    --text-muted: #EFEFEF;
-
+    --text-muted: #d7d7d7;
     --text-surface: #ADADAD;
     --surface-bg: #444444;
-
 }
 
 /* Light theme */
 .light {
     --bg: #FFFFFF;
     --text: #1D1D1D;
-    --text-muted: #808080;
-    
-    --text-surface: #444444;
+    --text-muted: #505050;
+    --text-surface: #6c6c6c;
     --surface-bg: #F7F7F7;
 }
 
@@ -36,7 +33,6 @@
     body {
         display: grid;
         grid-template-rows: auto 1fr auto;
-        min-height: 100dvh;
         font-family: var(--font-sans);
         color: var(--text);
         background-color: var(--bg);
