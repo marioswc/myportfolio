@@ -1,0 +1,28 @@
+{
+    "header": {
+        "home": "Home"
+    },
+    "home": {
+        "description": "Junior Software Developer focused on building fast, responsive and accessible web applications."  
+    },
+    "experience": {
+        "title": "Experience",
+        "previous": "Previous Roles",
+        "resume": "Download Resume"
+    },
+    "status":{
+        "active": "Currently Working",
+        "unactive": "Looking for opportunities"
+    },
+    "projects": {
+        "title": "What I've Built",
+        "repository": "Repository",
+        "demo": "View Project"
+
+        
+    },
+    "footer": {
+        "repository": "View Source Code",
+        "copyright": "2026 Mario Mendoza. All rights reserved."
+    } 
+}

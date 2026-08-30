@@ -1,0 +1,28 @@
+{
+    "header": {
+        "home": "Inicio"
+    },
+    "home": {
+        "description": "Desarrollador de software junior enfocado en crear aplicaciones web rápidas, adaptables y accesibles."
+    },
+    "experience":{
+        "title": "Experiencia",
+        "previous": "Roles Anteriores",
+        "resume": "Descargar CV" 
+    },
+    "status":{
+        "active": "Actualmente Trabajando",
+        "unactive": "Buscando oportunidades"
+    },
+    "projects": {
+        "title": "Lo que he construido",
+        "repository": "Repositorio",
+        "demo": "Ver Proyecto"
+
+        
+    },
+    "footer": {
+        "repository": "Ver Código Fuente",
+        "copyright": "2026 Mario Mendoza. Todos los derechos reservados."
+    }
+}

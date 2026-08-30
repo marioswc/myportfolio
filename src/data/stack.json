@@ -1,0 +1,25 @@
+{
+    "frontend": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS"
+    ],
+    "backend": [
+        "PHP",
+        "Laravel",
+        "Python",
+        "Node.js"
+    ],
+    "database": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+    ],
+    "tool": [
+        "Git",
+        "GitHub",
+        "Cloudflare",
+        "Docker"
+    ]
+}
