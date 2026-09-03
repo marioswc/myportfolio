@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <title>Mario Mendoza | Software Developer</title>
+    <meta name="description" content="Junior Software Developer focused on building fast, responsive and accessible web applications.">
+    <link rel="canonical" href="https://www.mariosdev.me/">
     <link rel="icon" type="image/svg+xml" href="/favicon/icon.svg" />
-    <link rel="stylesheet" href="src/css/input.css">
 
-    <meta name="description" content="Mario Mendoza is Junior Software Developer passionate about building fast, responsive and accessible web applications.">
+    <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mariosdev.me/">
+    <meta property="og:title" content="Mario Mendoza | Software Developer">
+    <meta property="og:description" content="Junior Software Developer focused on building fast, responsive and accessible web applications.">
+    <meta property="og:image" content="https://res.cloudinary.com/dxsufvxeu/image/upload/c_fill,g_face,w_1200,h_630,f_auto,q_auto/v1786317461/pp_itzdl8.jpg">
+
+    <!-- X Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.mariosdev.me/">
+    <meta name="twitter:title" content="Mario Mendoza | Software Developer">
+    <meta name="twitter:description" content="Junior Software Developer focused on building fast, responsive and accessible web applications.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dxsufvxeu/image/upload/c_fill,g_face,w_1200,h_630,f_auto,q_auto/v1786317461/pp_itzdl8.jpg">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/input.css">
 </head>
 <body>
     <header class="sticky top-0 z-50 w-full md:w-200 md:m-auto">
@@ -35,12 +57,12 @@
                     class="p-1 text-sm hover:text-(--surface-hover) transition-colors duration-300 ease-in-out">
                         Blog
                     </a>
-                    <p class="text-xs text-(--text) border w-0.5 h-4"></p>
+                    <p class="text-xs text-(--text) border w-0.5 h-4" aria-hidden="true"></p>
                     <button aria-label="Toggle language"
                     class="outline-none p-1 text-sm cursor-pointer hover:text-(--surface-hover) transition-colors duration-300 ease-in-out uppercase lang-toggle">
                         ES
                     </button>
-                    <p class="text-xs text-(--text) border w-0.5 h-4"></p>
+                    <p class="text-xs text-(--text) border w-0.5 h-4" aria-hidden="true"></p>
                     <button aria-label="Toggle theme"
                     class="flex items-center size-6 outline-none p-1 text-sm cursor-pointer hover:text-(--surface-hover) transition-colors duration-300 ease-in-out theme-toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-auto icon-sun" fill="none" viewBox="0 0 12 12">
@@ -81,7 +103,7 @@
                     class="outline-none p-1 text-md cursor-pointer hover:text-(--surface-hover) transition-colors duration-300 ease-in-out uppercase lang-toggle">
                         ES
                     </button>
-                    <p class="text-xs text-(--text) border w-0.5 h-4"></p>
+                    <p class="text-xs text-(--text) border w-0.5 h-4" aria-hidden="true"></p>
                     <button aria-label="Toggle theme"
                     class="flex items-center size-6 outline-none p-1 cursor-pointer hover:text-(--surface-hover) transition-colors duration-300 ease-in-out theme-toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-auto icon-sun" fill="none" viewBox="0 0 12 12">
@@ -103,9 +125,7 @@
             <div class="flex items-center justify-center gap-2 md:gap-4 p-2">
                 <!-- profile picture -->
                 <div class="size-30 md:size-36 overflow-hidden rounded-full">
-                <img src="https://res.cloudinary.com/dxsufvxeu/image/upload/c_fill,g_face,w_360,h_360,f_auto,q_auto/v1786317461/pp_itzdl8.jpg"
-                    alt="Mario Mendoza" width="150" height="150"  class="size-full object-cover"
-                    fetchpriority="high" loading="eager" decoding="async" draggable="false">
+                    <img src="https://res.cloudinary.com/dxsufvxeu/image/upload/c_fill,g_face,w_240,h_240,f_auto,q_auto/v1786317461/pp_itzdl8.jpg" alt="Mario Mendoza" width="120" height="120" class="size-full object-cover" fetchpriority="high" loading="eager" decoding="async" draggable="false">
                 </div>
                 <!-- information and buttons -->
                 <div class="p-2 flex flex-col gap-2 ">
@@ -291,7 +311,7 @@
                 </div>
                 <div class="grid grid-cols-[auto_1fr_auto] items-center w-full gap-2 md:w-150 md:m-auto">
                     <!-- left button -->
-                    <button id="next-project" aria-label="Next project" 
+                    <button id="previous-project" aria-label="Next project" 
                     class="border rounded-xl border-(--text) p-2 hover:border-(--surface-hover) hover:text-(--surface-hover) transition-colors duration-300 ease-in-out cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" fill="currentColor" viewBox="0 0 22 12">
                             <path fill="currentColor" d="M16.67 6.667h-12A.66.66 0 0 1 4.003 6a.66.66 0 0 1 .667-.667h12a.66.66 0 0 1 .667.667.66.66 0 0 1-.667.667"/>
@@ -301,11 +321,10 @@
 
                     <div class="flex items-center gap-4 w-full p-2 snap-x snap-mandatory overflow-x-auto scroll-smooth scrollbar-none no-scrollbar">
                         <!-- card 1 -->
-                        <div class="shrink-0 border border-(--surface-bg) rounded-md span-center w-60 h-auto">
+                        <div class="shrink-0 border border-(--surface-bg) rounded-md snap-center w-60 h-auto">
                             <!-- img project -->
                             <div class="rounded-sm w-full h-auto overflow-hidden">
-                                <img src="https://res.cloudinary.com/dxsufvxeu/image/upload/v1786492826/dsac_aeaqvn.jpg" 
-                                width="150" height="150" alt="Project Image 1" class="w-full h-auto object-cover" loading="lazy" draggable="false">
+                                <img src="https://res.cloudinary.com/dxsufvxeu/image/upload/c_scale,w_480,f_auto,q_auto/v1786492826/dsac_aeaqvn.jpg" width="240" height="141" alt="Preview del sistema DSAC" class="w-full h-auto object-cover" loading="lazy" decoding="async" draggable="false">
                             </div>
                             <!-- project information -->
                              <div class="p-4 flex flex-col gap-4">
