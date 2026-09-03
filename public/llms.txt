@@ -1,0 +1,13 @@
+# Mario Mendoza Cáceres - Software Developer
+
+> Junior Software Developer enfocado en construir aplicaciones web rápidas, responsivas y accesibles.
+
+## Información Principal
+- [Sobre mí](https://www.mariosdev.me/#home): Resumen del perfil, stack tecnológico y ubicación (Mérida, Yucatán, México).
+- [Experiencia](https://www.mariosdev.me/#experience): Roles profesionales y experiencia como Fullstack Developer.
+- [Proyectos](https://www.mariosdev.me/#projects): Proyectos desarrollados, demos y enlaces a repositorios de GitHub.
+
+## Recursos
+- [Currículum Vitae](https://www.mariosdev.me/resumeMarioMendoza.pdf): CV profesional en formato PDF.
+- [GitHub](https://github.com/marioswc): Perfil de desarrollo con código fuente público.
+- [LinkedIn](https://www.linkedin.com/in/marioswc): Perfil y trayectoria profesional.
