@@ -67,7 +67,7 @@ function updateThemeElements(theme){
 function updateLocalStorageTheme(theme){
     // get the current config from localStorage (the old one)
     const getConfig = JSON.parse(localStorage.getItem('config'));
-    console.log('current theme:', getConfig.theme, 'will be updated to:', theme);
+    // console.log('current theme:', getConfig.theme, 'will be updated to:', theme);
     // update the old theme for the new theme selelected 
     getConfig.theme = theme;
     // update the localStorage with the new config
