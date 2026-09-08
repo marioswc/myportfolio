@@ -8,7 +8,11 @@
     "experience": {
         "title": "Experience",
         "previous": "Previous Roles",
-        "resume": "Download Resume"
+        "resume": "Download Resume",
+
+        "experience1": {
+            "description": "Design and implement user interfaces, develop backend functionalities and ensure overall performance, security of web applications/systems."
+        }
     },
     "status":{
         "active": "Currently Working",
@@ -16,13 +20,31 @@
     },
     "projects": {
         "title": "What I've Built",
-        "repository": "Repository",
-        "demo": "View Project"
-
+        
+        "project1": {
+            "title": "Appointment System",
+            "description": "Management system built with Laravel featuring authentication, role management, appointment scheduling, PDF generation, email notifications."
+        }
         
     },
     "footer": {
         "repository": "View Source Code",
         "copyright": "2026 Mario Mendoza. All rights reserved."
-    } 
+    },
+    "accessibility": {
+        "openMenu": "Open menu",
+        "toggleTheme": "Toggle theme",
+        "toggleLanguage": "Toggle language",
+
+        "gitProfile": "Github profile",
+        "linkedinProfile": "LinkedIn profile",
+        "sendEmail": "Send an email",
+
+        "previousRole": "Show more experience",
+        "downloadResume": "Download Resume",
+
+        "nextProject": "Next project",
+        "previousProject": "Previous project",
+        "viewSource": "View source code"
+    }
 }

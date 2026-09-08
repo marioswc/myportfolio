@@ -3,12 +3,16 @@
         "home": "Inicio"
     },
     "home": {
-        "description": "Desarrollador de software junior enfocado en crear aplicaciones web rápidas, adaptables y accesibles."
+        "description": "Desarrollador de Software Junior enfocado en crear aplicaciones web rápidas, adaptables y accesibles."
     },
-    "experience":{
+    "experience": {
         "title": "Experiencia",
         "previous": "Roles Anteriores",
-        "resume": "Descargar CV" 
+        "resume": "Descargar CV",
+
+        "experience1": {
+            "description": "Diseñar e implementar interfaces de usuario, desarrollar funcionalidades de backend y garantizar el rendimiento general, la seguridad de las aplicaciones/sistemas web."
+        }
     },
     "status":{
         "active": "Actualmente Trabajando",
@@ -16,13 +20,31 @@
     },
     "projects": {
         "title": "Lo que he construido",
-        "repository": "Repositorio",
-        "demo": "Ver Proyecto"
 
+        "project1": {
+            "title": "Sistema de Citas",
+            "description": "Sistema de gestión construido con Laravel que incluye autenticación, gestión de roles, programación de citas, generación de PDF, notificaciones por correo electrónico."
+        }
         
     },
     "footer": {
         "repository": "Ver Código Fuente",
         "copyright": "2026 Mario Mendoza. Todos los derechos reservados."
+    },
+    "accessibility": {
+        "openMenu": "Abir menú",
+        "toggleTheme": "Cambiar tema",
+        "toggleLanguage": "Cambiar idioma",
+
+        "gitProfile": "Perfil de Github",
+        "linkedinProfile": "Perfil de LinkedIn",
+        "sendEmail": "Enviar un email",
+
+        "previousRole": "Mostrar más experiencia",
+        "downloadResume": "Descargar CV",
+
+        "nextProject": "Siguiente proyecto",
+        "previousProject": "Proyecto anterior",
+        "viewSource": "Ver código fuente"
     }
 }

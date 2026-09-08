@@ -1,6 +1,6 @@
 // import JSON lang files
-import langEs from '../../data/lang/es.json' with { typhe: 'json' };
-import langEn from '../../data/lang/en.json' with { typhe: 'json' };
+import langEs from '../../data/lang/es.json' with { type: 'json' };
+import langEn from '../../data/lang/en.json' with { type: 'json' };
 
 // get the btn lang
 const btnLangToggle = document.querySelectorAll('.lang-toggle');
@@ -50,18 +50,40 @@ function updateLangElements(lang){
     elementsToTranslate.forEach((element) => {
         //verify what lang is selected to use right JSON file
         if (lang === 'es'){
-            // get the section and key from the element
-            element.innerHTML = langEs[element.dataset.section][element.dataset.value];
-
+            // verify if the element has subsection
+            if (element.dataset.subsection){
+                // get the section and update the element
+                element.textContent = langEs[element.dataset.section][element.dataset.subsection][element.dataset.value];
+            }else{
+                // verify if the element has title and aria-label
+                if (element.hasAttribute('title') && element.hasAttribute('aria-label')){
+                    element.setAttribute('title', langEs[element.dataset.section][element.dataset.value]);
+                    element.setAttribute('aria-label', langEs[element.dataset.section][element.dataset.value]);
+                }else{
+                    // update the element textContent
+                    element.textContent = langEs[element.dataset.section][element.dataset.value];
+                }
+            }
+            
         }else if (lang === 'en'){
-            // get the section and key from the element
-            element.innerHTML = langEn[element.dataset.section][element.dataset.value];
+            // verify if the element has subsection
+            if (element.dataset.subsection){
+                // get the section and update the element
+                element.textContent = langEn[element.dataset.section][element.dataset.subsection][element.dataset.value];
+            }else{
+                // verify if the element has title and aria-label
+                if (element.hasAttribute('title') && element.hasAttribute('aria-label')){
+                    element.setAttribute('title', langEn[element.dataset.section][element.dataset.value]);
+                    element.setAttribute('aria-label', langEn[element.dataset.section][element.dataset.value]);
+                }else{
+                    // update the element textContent
+                    element.textContent = langEn[element.dataset.section][element.dataset.value];
+                }
+            }
         }
         // depuring
         // console.log('langElements: ', elementsToTranslate);
-    })
-    // depuring
-    //console.log(lang,' is on')
+    });
 }
 
 function updateLocalStorageLang(lang){
