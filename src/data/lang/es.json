@@ -10,9 +10,10 @@
         "previous": "Roles Anteriores",
         "resume": "Descargar CV",
 
-        "experience1": {
+        "currentExperience": {
             "description": "Diseñar e implementar interfaces de usuario, desarrollar funcionalidades de backend y garantizar el rendimiento general, la seguridad de las aplicaciones/sistemas web."
-        }
+        },
+        "noData": "No hay experiencia previa disponible"
     },
     "status":{
         "active": "Actualmente Trabajando",

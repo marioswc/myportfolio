@@ -10,9 +10,10 @@
         "previous": "Previous Roles",
         "resume": "Download Resume",
 
-        "experience1": {
+        "currentExperience": {
             "description": "Design and implement user interfaces, develop backend functionalities and ensure overall performance, security of web applications/systems."
-        }
+        },
+        "noData": "No previous experience available"
     },
     "status":{
         "active": "Currently Working",
