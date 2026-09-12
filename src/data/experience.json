@@ -1,0 +1,17 @@
+{
+    "current": {
+        "title": "Full Stack Developer",
+        "description": "Design and implement user interfaces, develop backend functionalities and ensure overall performance",
+        "company": "Freelance",
+        "companyImage": "",
+        "stack": [
+            "Tailwind",
+            "JavaScript",
+            "Laravel",
+            "Php",
+            "MySQL"
+        ]
+    },
+    "previous": [
+    ] 
+}

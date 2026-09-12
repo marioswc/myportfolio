@@ -196,11 +196,11 @@
                         Experience
                     </h2>
                 </div>
-                <div class="">
+                <div>
                     <!-- Experience container -->
-                    <div class="p-2">
+                    <div class="flex flex-col gap-2 p-2">
                         <!-- Experience 1 -->
-                        <div class="border border-(--surface-bg) rounded-lg p-4">
+                        <div class="border border-(--surface-bg) rounded-lg p-4" id="current-experience">
                             <!-- working status -->
                             <div class="flex items-center mb-2">
                                 <div class="flex items-center justify-center size-6">
@@ -212,38 +212,22 @@
                                     Looking for opportunities
                                 </p>
                             </div>
-                            <!-- experience title and info -->
-                            <div class="flex items-center justify-between">
-                                <h3 class="text-md font-bold text-(--text) uppercase">Fullstack Developer</h3>
-                                <div class="flex items-center flex-col gap-2">
-                                    <!-- put image here -->
-                                    <p class="text-xs md:text-sm font-semibold">Freelance</p>
-                                </div>
-                            </div>
-                            <!-- experience description and tools -->
-                            <div class="mt-2">
-                                <p data-section="experience" data-subsection="experience1" data-value="description"
-                                class="text-xs md:text-sm text-(--text-surface)">
-                                    Design and implement user interfaces, develop backend functionalities and ensure overall performance, security of web applications/systems.
-                                </p>
-                            </div>
-                            <!-- stack used -->
-                            <div class="flex flex-wrap gap-2 mt-4">
-                                <p class="text-[10px] text-(--text-surface) border border-(--text-surface) p-1 rounded-sm">PHP</p>
-                                <p class="text-[10px] text-(--text-surface) border border-(--text-surface) p-1 rounded-sm">Tailwind</p>
-                                <p class="text-[10px] text-(--text-surface) border border-(--text-surface) p-1 rounded-sm">JavaScript</p>
-                                <p class="text-[10px] text-(--text-surface) border border-(--text-surface) p-1 rounded-sm">Laravel</p>
-                                <p class="text-[10px] text-(--text-surface) border border-(--text-surface) p-1 rounded-sm">HTML</p>
-                            </div>
+                            <!-- current experience info -->
                         </div>
-                        <!-- Other experiences -->
-
+                        <!-- Other Experiences Section -->
+                        <div id="prev-experience" 
+                        class="flex flex-col gap-2 opacity-0 -translate-y-2 invisible max-h-0
+                        [&.show-exp]:visible [&.show-exp]:translate-y-0 [&.show-exp]:opacity-100 [&.show-exp]:max-h-full
+                        transition-all duration-300 ease-in-out" >
+                            <!-- other experiences -->
+                        </div>
                     </div>
+                    <!-- experience buttons -->
                     <div class="flex items-center justify-between m-2">
                         <button id="expand-experience" 
                         aria-label="Show more experience" title="Show more experience" data-section="accessibility" data-value="previousRole"
-                        class="flex items-center gap-2 border border-(--text) text-(--text) cursor-pointer rounded-md p-2 text-xs hover:text-(--surface-hover) hover:border-(--surface-hover) transition-colors duration-300 ease-in-out">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        class="flex group items-center gap-2 border border-(--text) text-(--text) cursor-pointer rounded-md p-2 text-xs hover:text-(--surface-hover) hover:border-(--surface-hover) transition-colors duration-300 ease-in-out">
+                            <svg class="-rotate-180 transition-transform duration-300" id="arrow-experience" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.0833 5.25L6.99996 9.33333L2.91663 5.25" stroke="currentColor" stroke-width="1.16667" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             <p data-section="experience" data-value="previous">Previous Roles</p>
